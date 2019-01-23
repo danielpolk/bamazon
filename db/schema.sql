@@ -9,8 +9,8 @@
 
 */
 
--- Create the database seinfeld and specified it for use.
-CREATE DATABASE bamazon;
+-- Create the database bamazon and specified it for use.
+-- CREATE DATABASE bamazon;
 USE bamazon;
 
 CREATE TABLE products
@@ -20,5 +20,7 @@ CREATE TABLE products
 	department_name varchar(255) NOT NULL,
 	price int NOT NULL,
 	stock_quantity int NOT NULL,
+	products_sold int NOT NULL,
+	products_revenue int NOT NULL,
 	PRIMARY KEY (item_id)
 );
