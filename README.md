@@ -5,8 +5,7 @@
 ## Description
 
 This is a node application to:
-* view and maintain product and department information
-* view and maintain product and department information
+* view product information
 * allow customer to place orders for products
 
 ## Getting Started
@@ -22,23 +21,9 @@ This is a node application to:
 1. Clone repository bamazon using the code -> _git clone https://github.com/danielpolk/bamazon.git bamazon_
 1. Open a terminal session for the directory where the application was cloned to
 1. run *npm install* to install the dependencies
-1. Use the *bamazaon.sql* file to create the databases in MySQL
+1. Use the *schema.sql* & *seeds.sql* files to create the databases in MySQL
 
 ## Using the Application
-
-There are 3 js files that can be run from a terminal session. Details on executing each of these is found in sections below.
-
-1. `node BamazonCustomer.js`
-    1. Purchase items and create an order
-1. `node BamazonManager.js`
-    1. View products
-    1. View products with low inventory
-    1. Add Inventory to a Product
-    1. Add a Product
-    1. Delete Product
-1. `node BamazonSupevisor.js`
-    1. View Product sales by Department
-    1. Add a Department
 
 ### General Instructions
 
@@ -50,7 +35,7 @@ There are 3 js files that can be run from a terminal session. Details on executi
 
 ### bamazonCustomer.js
 
-1. run _node bamazonCustomer.js_ from a terminal session in the application directory
+1. run _node server.js_ from a terminal session in the application directory
 1. A list of products is presented
 1. Select a product id to order
 1. Once a product is selected, reply to the prompt with the quantity to order
