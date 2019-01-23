@@ -56,7 +56,7 @@ There are 3 js files that can be run from a terminal session. Details on executi
 1. Once a product is selected, reply to the prompt with the quantity to order
 1. A reply is provided indicating if the order is created or if there is not enough inventory
 1. Reply to the prompt to continue with another order or to exit the application
-![Demo](/images/Customer.gif)
+![Demo](/images/bamazon.gif)
 
 ## Technical Information
 
